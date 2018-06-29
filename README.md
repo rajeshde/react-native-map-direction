@@ -26,12 +26,12 @@ Without an API key the Google Maps map won't render anything.
 Add your API key to your manifest file in  <br /> 
 “ android/app/src/main/AndroidManifest.xml “
 
-<application>
- <!-- You will only need to add this meta-data tag, but make sure it's a child of application --> <br /> 
- <meta-data
-   android:name="com.google.android.geo.API_KEY"
-   android:value="YOUR_API_KEY_HERE"/>
-</application>
+<application &nbsp; >
+ <!-- You will only need to add this meta-data tag, but make <br /> sure it's a child of application --> <br /> 
+ <meta-data <br />
+&nbsp; &nbsp;   android:name="com.google.android.geo.API_KEY" <br />
+&nbsp; &nbsp;    android:value="YOUR_API_KEY_HERE"/> <br />
+</application &nbsp; >
 
 
 ## Issues:
