@@ -17,7 +17,7 @@ class MapComponent extends Component {
       },
       screenDimension: {
         width: Dimensions.get('window').width,
-        height: 210
+        height: Dimensions.get('window').height
       },
       pinColors: {
         start: 'green',
